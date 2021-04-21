@@ -6,12 +6,36 @@ h1 {
     font-family: 'RocknRoll One', sans-serif;
 }
 
+.cart{
+    flex-grow: initial;
+}
+
+*{
+    display: grid;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #6ed8f0;
+    color: #485bab;
+}
+
+h1{
+    background-color: #27badb;
+    color: #dcf0f5;
+}
+
+.shop-items{
+    display: grid;
+    width: 540px;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+
+
 @media screen and (max-width: 640px){
     
 *{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
     align-content: center;
     background-color: #6ed8f0;
     color: #485bab;
@@ -22,13 +46,10 @@ h1{
     color: #dcf0f5;
 }
 
-.cart{
-    background-color: #e5bbfc;
-    width: 
+section.cart{
+    background-color: #e5bbfc; 
 }
-.ca{
-    background-color: #e5bbfc;
-}
+
 h3.section-header{
     background-color: #e5bbfc;
 }
@@ -36,5 +57,9 @@ h3.section-header{
 div.wrapper{
     background-color: #e5bbfc
 }
+span{
+    background-color: #e5bbfc    
+}
 
 }
+
