@@ -16,9 +16,25 @@ h1 {
     background-color: #6ed8f0;
     color: #485bab;
 }
+
 h1{
     background-color: #27badb;
     color: #dcf0f5;
+}
+
+.cart{
+    background-color: #e5bbfc;
+    width: 
+}
+.ca{
+    background-color: #e5bbfc;
+}
+h3.section-header{
+    background-color: #e5bbfc;
+}
+
+div.wrapper{
+    background-color: #e5bbfc
 }
 
 }
