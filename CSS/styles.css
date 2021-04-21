@@ -1,0 +1,70 @@
+h1 {
+    font-family: 'Indie Flower', cursive;
+}
+
+*{
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+.cart{
+    flex-grow: initial;
+}
+
+*{
+    display: grid;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #6ed8f0;
+    color: #485bab;
+}
+
+h1{
+    background-color: #27badb;
+    color: #dcf0f5;
+}
+
+.shop-items{
+    display: grid;
+    width: 540px;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.cart{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+}
+
+
+@media screen and (max-width: 640px){
+    
+*{
+    align-content: center;
+    background-color: #6ed8f0;
+    color: #485bab;
+}
+
+h1{
+    background-color: #27badb;
+    color: #dcf0f5;
+}
+
+section.cart{
+    background-color: #e5bbfc; 
+}
+
+h3.section-header{
+    background-color: #e5bbfc;
+}
+
+div.wrapper{
+    background-color: #e5bbfc
+}
+span{
+    background-color: #e5bbfc    
+}
+
+}
+
