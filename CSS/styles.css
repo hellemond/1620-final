@@ -6,3 +6,19 @@ h1 {
     font-family: 'RocknRoll One', sans-serif;
 }
 
+@media screen and (max-width: 640px){
+    
+*{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: #6ed8f0;
+    color: #485bab;
+}
+h1{
+    background-color: #27badb;
+    color: #dcf0f5;
+}
+
+}
